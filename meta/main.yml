@@ -1,0 +1,31 @@
+---
+dependencies: []
+
+Info_about_nginx:
+  role_name: nginx
+  author: madhukrishna
+  description: Nginx installation for Linux
+  company: "Hcl Tech"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - focal
+    - name: Archlinux
+      versions:
+        - all
+    - name: FreeBSD
+      versions:
+        - 10.3
+        - 10.2
+
